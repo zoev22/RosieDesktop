@@ -449,9 +449,10 @@ svg.guildBoostBadge__5dba5 path {
     .channelTextArea_f75fb0 {
         background: var(--base02) !important;
     }
-    .chatContent_f75fb0 {
+ .chatContent_f75fb0 {
         background-image: url(https://raw.githubusercontent.com/ctbug/RosieDesktop/refs/heads/main/rosiedark.jpg);
-    }
+        background-size: cover;
+ }
     .members_c8ffbb,
     .member_c8ffbb {
         background: var(--base00) !important;
