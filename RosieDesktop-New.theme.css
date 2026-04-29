@@ -60,7 +60,7 @@
 :root {
     --base00: #0e0c0e;
     --base01: #0d0b0e;
-    --base02: #18131A;
+    --base02: #100f11;
     --base03: #E792C1;
     --base04: #ffbaf2;
     --base05: #FBFBFB;
@@ -502,9 +502,10 @@ svg.guildBoostBadge__5dba5 path {
         background: var(--base02) !important;
     }
  .chatContent_f75fb0 {
-        background-image: url(https://raw.githubusercontent.com/ctbug/RosieDesktop/refs/heads/main/rosiedark.jpg);
+        background-image: url("https://raw.githubusercontent.com/ctbug/RosieDesktop/refs/heads/main/backgr.jpg");
         background-size: cover;
  }
+
     .members_c8ffbb,
     .member_c8ffbb {
         background: var(--base00) !important;
