@@ -595,36 +595,23 @@ svg.guildBoostBadge__5dba5 path {
   }
 }
 
-.title_c38106 {
-  display: none;
-}
-
-.title_f75fb0 {
-  padding: 0px !important;
-  /* scale: 0.9; */
-  padding-left: 12px !important;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  background: transparent !important;
-  height: var(--custom-app-top-bar-height) !important;
-  min-height: 0px;
-  border: none !important;
-  width: calc(100vw);
-}
-
-.followButton_f75fb0,
-.topicClickTarget__6ec1a {
-  -webkit-app-region: no-drag !important;
-}
-
-.base_c48ade:has(.bar_c38106[data-windows="true"]) .title_f75fb0 {
-  width: calc(100vw - 240px)!important;
-}
-
 .children__9293f::after {
   background: linear-gradient(to right, transparent 0, var(--bg-base-tertiary) 100%)!important;
 }
 .topic__6ec1a {
   flex: none;
+}
+
+.isUnread__908e2, .custom-theme-background .isUnread__908e2 {
+border-color: #E792C1 !important;
+}
+
+.unreadPill__908e2 {
+    background-color: #E792C1;
+    border-left: 3px solid #E792C1;
+    border-radius: 8px;
+}
+
+.unreadPillCap__908e2 {
+display: none;
 }
