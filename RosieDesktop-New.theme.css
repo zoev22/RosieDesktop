@@ -1,5 +1,6 @@
 @import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/fonts/google-sans.css");
 @import url('https://abbie.github.io/discord-css/import.css');
+@import url(https://davart154.github.io/Themes/Snippets/Mana%20Profile/ManaProfileSource.css);
 
 :root {
   --font-primary: Google Sans;
@@ -617,10 +618,10 @@ svg.guildBoostBadge__5dba5 path {
       font-weight: 500;
     }
     &:last-child::after {
-      content: " is yapping...";
+      content: "...";
     }
     &:last-child:not(:first-child)::after {
-      content: " are yapping...";
+      content: "...";
     }
     &:nth-last-child(2)::after {
       content: " and "
@@ -656,3 +657,15 @@ border-color: #E792C1 !important;
 display: none;
 }
 
+.vc-card-defaultPadding {
+max-width: 370px;
+    border-radius: 20px;
+}
+
+.vc-btn-secondary, .vc-btn-link, .vc-btn-medium, .vc-btn-base {
+border-radius: 13px;
+}
+
+.isUnread__908e2 .content__908e2 {
+    color: #E792C1;
+}
